@@ -9,7 +9,7 @@ const Categories = () => {
 
     useEffect(() => {
         setCategories(categoryData)
-    })
+    },[])
 
     return (
         <div className="bg-white py-4">
